@@ -2,7 +2,7 @@
 -- NovaCrypt Obfuscator
 -- steps/RenameVariables.lua
 -- ============================================================
-local AstKind = require("ast").AstKind
+local AstKind = require("src.ast").AstKind
 
 local RenameVariables = {}
 RenameVariables.Name = "RenameVariables"
