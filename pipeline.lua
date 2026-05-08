@@ -2,8 +2,8 @@
 -- NovaCrypt Obfuscator
 -- pipeline.lua
 -- ============================================================
-local Parser   = require("parser")
-local Unparser = require("unparser")
+local Parser   = require("src.parser")
+local Unparser = require("src.unparser")
 
 local Pipeline = {}
 
