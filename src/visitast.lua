@@ -2,7 +2,7 @@
 -- NovaCrypt Obfuscator
 -- visitast.lua
 -- ============================================================
-local Ast = require("ast")
+local Ast = require("src.ast")
 local AstKind = Ast.AstKind
 
 local function visitNode(node, preVisit, postVisit, data)
