@@ -3,9 +3,9 @@
 -- main.lua  ( CLI )
 -- ============================================================
 local Pipeline              = require("pipeline")
-local NumbersToExpressions  = require("steps/NumbersToExpressions")
-local EncryptStrings        = require("steps/EncryptStrings")
-local RenameVariables       = require("steps/RenameVariables")
+local NumbersToExpressions  = require("steps.NumbersToExpressions")
+local EncryptStrings        = require("steps.EncryptStrings")
+local RenameVariables       = require("steps.RenameVariables")
 
 local inputFile  = arg and arg[1] or "input.lua"
 local outputFile = arg and arg[2] or "output.lua"
